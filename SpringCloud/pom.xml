@@ -13,5 +13,6 @@
     <version>7</version>
     <modules>
         <module>Component</module>
+        <module>Service</module>
     </modules>
 </project>
