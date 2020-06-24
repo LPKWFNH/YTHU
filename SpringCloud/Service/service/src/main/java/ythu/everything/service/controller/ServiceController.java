@@ -18,7 +18,6 @@ public class ServiceController {
     @ResponseBody
     @PostMapping("/post")
     public String post(HttpServletResponse response) {
-        response.setStatus(500);
         return "Hello Vue";
     }
 }
